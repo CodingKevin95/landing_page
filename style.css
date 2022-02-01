@@ -1,0 +1,182 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: rgb(128, 128, 128);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 48px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.headertab {
+    display:flex;
+    width: 400px;
+    justify-content: space-between;
+    color: black;
+    font-size: 20px;
+}
+
+/*This is to remove the bullets and hyperlink*/
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+ul a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin-top: 0;
+}
+/**********************************************************************************/
+.middleintro {
+    background-color: rgba(128, 128, 128, 0.514);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.middleleft {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.middleright {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleright img {
+    display: flex;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.intro {
+    font-size: 32px;
+}
+
+.descriptionintro {
+    width: 350px;
+}
+
+/****************************************************/
+
+.middlephotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 24px;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.photoname {
+    font-size: 18px;
+}
+
+.middlebutton {
+    width: 250px;
+}
+
+.titleformiddlephoto {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 24px;
+    font-weight: bold;
+}
+
+/*********************************************************/
+
+.boxbox{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+}
+
+.quotebody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 96px;
+    width: 350px;
+}
+
+.quotebody .quote {
+    font-size: 32px;
+}
+
+.quotebody .name {
+    margin-left: auto;
+}
+
+/*******************************************************/
+
+.lastbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:48px;
+}
+
+.contactheader {
+    font-size: 18px;
+
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+    background-color: rgba(128, 128, 128, 0.514);
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.rightside {
+    display: flex;
+}
+
+.contactbutton {
+    height: 45px;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.contactbutton a{
+    text-decoration: none;
+}
+
+.contacttext {
+    width: 400px;
+}
+
+
+/*******************************************************/
+a img:hover {
+    position: relative;
+    top: -5px;
+}
